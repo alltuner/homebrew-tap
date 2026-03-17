@@ -10,6 +10,7 @@ cask "factoryfloor" do
   depends_on macos: ">= :sonoma"
 
   app "Factory Floor.app"
+  binary "#{appdir}/Factory Floor.app/Contents/Resources/ff", target: "ff"
 
   zap trash: [
     "~/.config/factoryfloor",

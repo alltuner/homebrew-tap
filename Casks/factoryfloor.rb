@@ -1,8 +1,8 @@
 cask "factoryfloor" do
-  version "0.1.32"
-  sha256 "b0d9e7802580f877a22163ca502daf2bda8dd030854d8b61f42f5cfe1b4101ed"
+  version "0.1.33"
+  sha256 "85affe7adf1db901d7bd85439c49972c90ad5c746f2d3ac4e3f2da059cf2802e"
 
-  url "https://github.com/alltuner/factoryfloor/releases/download/v0.1.32/FactoryFloor-0.1.32.dmg"
+  url "https://github.com/alltuner/factoryfloor/releases/download/v0.1.33/FactoryFloor-0.1.33.dmg"
   name "Factory Floor"
   desc "AI-powered development workspace for macOS"
   homepage "https://factory-floor.com"

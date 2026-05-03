@@ -7,20 +7,20 @@ class Vacant < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/alltuner/vacant/releases/download/v0.4.0/vacant-aarch64-apple-darwin.tar.gz"
-      sha256 "7106f399a1930422d6d82178fa9854cb585add20b0d2e1df761175bc5652cf32"
+      sha256 "638db4f08b78d7871a3329b1011b4cd5b7f4a264c0b215e05dbb3349cd81e5b0"
     else
       url "https://github.com/alltuner/vacant/releases/download/v0.4.0/vacant-x86_64-apple-darwin.tar.gz"
-      sha256 "df223fade12491430eadf96e8a75da96e26e90e963a59d78f289d2a0e49b6aa4"
+      sha256 "53e9c65cda1ec8aeef7a3e2bd65aaac762bc4e25b691f96ec7a3d186e05c1191"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/alltuner/vacant/releases/download/v0.4.0/vacant-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "21bb1eb810be7485f86462d0ef2f8d1a63712d1c2971ae6461ba811e3ea9653c"
+      sha256 "02e60eb5ceca8ad099ebf5c042c2522b1cb54922acad1ba90f8cc6118f1baba7"
     else
       url "https://github.com/alltuner/vacant/releases/download/v0.4.0/vacant-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2b183a44810e8060a788d02ce5291956bc5197d7c967e43c3b9a58e2bf0ac034"
+      sha256 "7d6299f8c2132cd266881d4e28ee2247a85d73beb0f505561e951ec257f4477b"
     end
   end
 

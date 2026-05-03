@@ -1,20 +1,34 @@
-# Homebrew Tap for Factory Floor
+# Alltuner Homebrew Tap
 
-This is the official [Homebrew](https://brew.sh) tap for [Factory Floor](https://factory-floor.com).
+The official [Homebrew](https://brew.sh) tap for [Alltuner](https://github.com/alltuner) packages.
 
-## Installation
+## Available packages
 
-```bash
-brew install --cask alltuner/tap/factoryfloor
-```
+### Casks
+
+- **[factoryfloor](https://factory-floor.com)** — AI-powered development workspace for macOS.
+
+  ```bash
+  brew install --cask alltuner/tap/factoryfloor
+  ```
+
+### Formulas
+
+- **[vacant](https://github.com/alltuner/vacant)** — Fast domain availability checker via authoritative DNS.
+
+  ```bash
+  brew install alltuner/tap/vacant
+  ```
 
 ## Updating
 
 ```bash
-brew upgrade --cask factoryfloor
+brew upgrade
 ```
 
-## More info
+Or upgrade a single package:
 
-- [Factory Floor website](https://factory-floor.com)
-- [GitHub repository](https://github.com/alltuner/factoryfloor)
+```bash
+brew upgrade --cask factoryfloor
+brew upgrade vacant
+```

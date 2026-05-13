@@ -6,8 +6,8 @@ class Vacant < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.1/vacant-aarch64-apple-darwin.tar.gz"
-      sha256 "1ac4241e032423a9c38be0dff2d8d47616187d61beec17b3fe966a0700cb78fe"
+      url "https://github.com/alltuner/vacant/archive/refs/tags/v0.4.2.tar.gz"
+      sha256 "d4340a4acaa18e618c4bc29c832fc0ff52634c182be3d41bf440dcc1b99f32b4"
     else
       url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.1/vacant-x86_64-apple-darwin.tar.gz"
       sha256 "01716c1eb743dbb2661e0ebfa48d829c0f467543450c0e24b46f0c63c47dd571"

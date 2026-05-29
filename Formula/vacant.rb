@@ -1,26 +1,26 @@
 class Vacant < Formula
   desc "Fast domain availability checker via authoritative DNS"
   homepage "https://github.com/alltuner/vacant"
-  version "0.4.4"
+  version "0.4.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.4/vacant-aarch64-apple-darwin.tar.gz"
-      sha256 "cb5fd4204d0f0f4c6cca0215d03c17858454feab421a57fc081006f6be9d6e26"
+      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.5/vacant-aarch64-apple-darwin.tar.gz"
+      sha256 "d8d6c321785ffdc7ae92e7cd8cd4ca08cc63c901b0e71b63fe59f3d79ea758f9"
     else
-      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.4/vacant-x86_64-apple-darwin.tar.gz"
-      sha256 "709dbf5bf66951197ab03042a7c36fe01d10f6e38e64db587e68e7dd97a302c8"
+      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.5/vacant-x86_64-apple-darwin.tar.gz"
+      sha256 "aaf23920c57456240d17e9f193e8bf8789c1561c372d142f8da04572102feab3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.4/vacant-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3a53ed3c09df0506845430d4f8483fc53cf9d290e9cc0ad0ee793480c5ccb3e6"
+      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.5/vacant-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dc638b5012263542819cfd4af92642d30b0e2d1c4f005b63a70ba23d826fc5dc"
     else
-      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.4/vacant-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "63369e9e4b4b0b8205b4157d544c7e66050ad0d61dd14ed6ca522f746dc5450f"
+      url "https://github.com/alltuner/vacant/releases/download/vacant-v0.4.5/vacant-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f30aef9565d930572cbdff1fc003ba762b318b0c050d783c40b57490591d0322"
     end
   end
 

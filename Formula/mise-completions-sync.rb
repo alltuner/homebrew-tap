@@ -1,26 +1,26 @@
 class MiseCompletionsSync < Formula
   desc "Sync shell completions for tools managed by mise"
   homepage "https://github.com/alltuner/mise-completions-sync"
-  version "0.5.9"
+  version "0.5.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.9/mise-completions-sync-aarch64-apple-darwin.tar.gz"
-      sha256 "03f606bac013200a7dff401f5d5a8fb3ea597107b665382c66fc89b5f27f6828"
+      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.10/mise-completions-sync-aarch64-apple-darwin.tar.gz"
+      sha256 "e188f196775edbfd9a46720d43f624bdf41fbfc94f9b124ec60dc7c56b17eb52"
     else
-      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.9/mise-completions-sync-x86_64-apple-darwin.tar.gz"
-      sha256 "34afffe5f0e7885b34f7521add2c96aa5de3a18d0ceaad6b1b23a124eeec6637"
+      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.10/mise-completions-sync-x86_64-apple-darwin.tar.gz"
+      sha256 "691807a2eb1bd949df2762b468cd1b8ceb4f67a7fd3d39bcdd22d58e61390f10"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.9/mise-completions-sync-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0a9326dc9620004e348639ad39e69b9ef6dedb5518a3169c4fae13c6f7d0c19e"
+      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.10/mise-completions-sync-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "aff6fe3833286f10dac869d3222bef1ae7cc517f7bd3b23551c39c2ab51c394b"
     else
-      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.9/mise-completions-sync-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b1eabe00b5f977eb8d4db44777cf4825a15d85f6b004a5f1fea08eb753fbc333"
+      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.10/mise-completions-sync-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "760bf76b6d17840e3d803c41afe0be5f0ca9250b9ab202f7ff4aae9f26e90a94"
     end
   end
 

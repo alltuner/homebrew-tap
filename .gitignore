@@ -1,0 +1,3 @@
+# LLVM coverage instrumentation drops these in the working directory.
+default.profraw
+*.profraw

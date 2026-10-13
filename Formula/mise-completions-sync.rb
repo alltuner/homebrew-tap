@@ -1,26 +1,26 @@
 class MiseCompletionsSync < Formula
   desc "Sync shell completions for tools managed by mise"
   homepage "https://github.com/alltuner/mise-completions-sync"
-  version "0.5.18"
+  version "0.5.19"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.18/mise-completions-sync-aarch64-apple-darwin.tar.gz"
-      sha256 "c15a2aa60f01ee06cdb4027bd9a7c457b923f21712878af329a93102af377792"
+      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.19/mise-completions-sync-aarch64-apple-darwin.tar.gz"
+      sha256 "8ed5ee0e80db7ac0cba043dde8b4c9a2d5c36bb5b54acebb7d3e5263081e728b"
     else
-      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.18/mise-completions-sync-x86_64-apple-darwin.tar.gz"
-      sha256 "2303dd5b23e890d8994f7843b03650ebfee926acea141e199a7fd3f8aed2132b"
+      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.19/mise-completions-sync-x86_64-apple-darwin.tar.gz"
+      sha256 "846b0b3cc290ff8e11fc938d6aeef52791797cad2fdbfedf06d7b37c01ee4ca5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.18/mise-completions-sync-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e84d796476b300d1b6de6558cc5a8a839062dd4778315375eefb9e36d6df329c"
+      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.19/mise-completions-sync-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "97180b5d51858d008c48a009564aaa1aa34d004f81d04ffaf3f303be85921c30"
     else
-      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.18/mise-completions-sync-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6237aa396c21c3e685917fb48bd4a35d9c239c4c9fa4c84a0dc5d715ebbf3821"
+      url "https://github.com/alltuner/mise-completions-sync/releases/download/v0.5.19/mise-completions-sync-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "149466e6a72f7449a039d0e62e01b3a90da7cb6138242c945718706541c000d3"
     end
   end
 

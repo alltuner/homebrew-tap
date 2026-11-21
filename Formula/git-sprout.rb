@@ -1,26 +1,26 @@
 class GitSprout < Formula
   desc "Drop-in git worktree add that clones the tree instead of copying it"
   homepage "https://sprout.alltuner.com"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/git-sprout/releases/download/git-sprout-v0.1.3/git-sprout-aarch64-apple-darwin.tar.gz"
-      sha256 "57fce0e21d7eb35788b208f06efc43dfbdb50f601e927142a864b1815ea2e9a8"
+      url "https://github.com/alltuner/git-sprout/releases/download/git-sprout-v0.1.4/git-sprout-aarch64-apple-darwin.tar.gz"
+      sha256 "ccf12833546b5f070359f7ae7eeef07861cf41524f02ff5d7c5f69c4c932b307"
     else
-      url "https://github.com/alltuner/git-sprout/releases/download/git-sprout-v0.1.3/git-sprout-x86_64-apple-darwin.tar.gz"
-      sha256 "9b6719cb343e9ff4afcaccfe9366ad93eb97a2adff2c1b6e12b496866d6a086e"
+      url "https://github.com/alltuner/git-sprout/releases/download/git-sprout-v0.1.4/git-sprout-x86_64-apple-darwin.tar.gz"
+      sha256 "34a18822ea3e32b20d2eb315ca24983571bde1165a5f2f1574bc3761ecbe2dc6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/alltuner/git-sprout/releases/download/git-sprout-v0.1.3/git-sprout-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "851a2145019be80df2044c55ad710021b95389395c49dd36488717566a6c3c2f"
+      url "https://github.com/alltuner/git-sprout/releases/download/git-sprout-v0.1.4/git-sprout-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3d962963d93ad1ed217675ef2bf69f450c3dade51ccd864a2a29994a9347fd32"
     else
-      url "https://github.com/alltuner/git-sprout/releases/download/git-sprout-v0.1.3/git-sprout-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b404b4a55de2e1aa593c7469608446587e732161ebdd7081517d8825d433bdf7"
+      url "https://github.com/alltuner/git-sprout/releases/download/git-sprout-v0.1.4/git-sprout-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b137affba07cc34687cbfaef82bb3ba18cb0d0963fe67a5f2ddda1ba2f35e619"
     end
   end
 
